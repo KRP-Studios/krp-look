@@ -1,0 +1,82 @@
+body {
+	font-family: "Arial", Helvetica, sans-serif;
+}
+
+.titlebar {
+	border-style: solid;
+	border-width: 2px;
+	text-align: center;
+	align-content: center;
+	justify-content: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: white;
+	text-align: center;
+	border-style: solid;
+	border-color: black;
+	padding: 5px;
+}
+
+.pagetitle {
+	text-align: center;
+}
+
+.wrapper-main {
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	text-align: center;
+	grid-template-rows: 200px 200px 200px 200px;
+	grid-column-gap: 10px;
+}
+
+.news-krp {
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.news-not-krp {
+	grid-column: 2 / 3;
+	grid-row: 1 / 3;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.top-posts {
+	grid-column: 3 / 4;
+	grid-row: 1 / 3;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.new-posts {
+	grid-column: 4;
+	grid-row: 1 / 3;
+	height: 100%;
+	width: 100%;
+	text-align: center;
+}
+
+.inline {
+	display: inline;
+}
+
+.title {
+	vertical-align: middle;
+	padding-left: 10px;
+}
+
+.column {
+	border: solid;
+}
